@@ -8,3 +8,6 @@ mkfs.ext4 /dev/xvdb
 create a file:
 sudo mkdir test
 sudo su > cd /
+
+Mount:
+mkfs.ext4 /dev/xvdb
