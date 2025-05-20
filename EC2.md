@@ -64,3 +64,13 @@ sudo nano /etc/nginx/conf.d/default.conf
 sudo nginx -t                  # Validate config
 sudo systemctl reload nginx    # Apply changes
 ```
+
+
+## show user metadata:
+
+curl 169.254.169.254/latest/meta-data
+curl -v -H "X-aws-ec2-metadata-token: $TOKEN" http://169.254.169.254/latest/meta-data/
+
+
+## show all ebs list
+lsblk
