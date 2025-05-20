@@ -23,3 +23,7 @@ Remount the dir after the Instance restarts
 /etc/fstab
 Then
 <disk path> <folder path> <filesystem type> etc
+
+It reads the beginning of the raw disk partition /dev/xvda1
+
+sudo file -s /dev/xvda1
